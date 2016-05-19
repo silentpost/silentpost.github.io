@@ -1,0 +1,45 @@
+.experience-list {
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    overflow: auto;
+    padding: 0;
+
+    li {
+        padding: 0 1rem 0 0;
+        margin: 1.5rem 0 0 0;
+        @include span-columns(6);
+        @include omega(2n);
+
+        &:before {
+            background: none;
+        }
+
+        &:nth-child(2n) {
+            padding: 0; 
+        }
+    }
+
+    h2#ux-and-ui-design {
+        color: $goldenrod;
+    }
+
+    h2#content-management {
+        color: $teal;
+    }
+
+    h2#web-development {
+        color: $red;
+    }
+
+    h2#ecommerce {
+        color: $dodger-blue;
+    }
+
+    h2 {
+        margin: 1rem 0 0.25rem 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
