@@ -14,8 +14,3 @@ sass:
 # Site info
 url: http://silentpost.co
 title: Software design and development from silentpost
-
-# Analytics
-analytics:
-  hostname: silentpost.co
-  id: "UA-"
