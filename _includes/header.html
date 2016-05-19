@@ -1,0 +1,15 @@
+{% assign timestamp = site.time | date: "%Y%m%d%H%M%S" %}
+
+<!doctype html>
+<html lang="en">
+<head>
+  {% include shared/_meta.html %}
+  {% include shared/_polyfills.html %}
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="{{ site.title }}"
+        href="{{ site.url }}/atom.xml">
+  <link rel="stylesheet"
+        href="{{ base }}/css/style.css?t={{ timestamp }}">
+</head>
+<body>
