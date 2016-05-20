@@ -20,7 +20,9 @@ with the following:
 - ## Content Management
   Manage your content using the powerful and extensible [Craft CMS][craft]{:target="_blank"}
 - ## Web Development
-  Write high-quality JavaScript, Ruby, PHP and Elixir code.
+  Develop blazing fast concurrent applications with
+[Phoenix][phoenix]{:target="_blank"}, powered by
+[Elixir][elixir]{:target="_blank"} and [Erlang][erlang]{:target="_blank"}.
 - ## Ecommerce
   Build your online store with [Craft Commerce][commerce]{:target="_blank"}, a
   flexible ecommerce platform.
@@ -33,7 +35,6 @@ product creation, development and maintenance.
 ## How we work
 
 {: .work-list}
-- Small teams
 - Weekly iterations of focused work
 - At a sustainable pace
 - With consistent communication
@@ -41,6 +42,9 @@ product creation, development and maintenance.
 
 [Let's get started with your project][build]{: .button}
 
+[phoenix]: https://www.phoenixframework.org
+[elixir]: https://elixir-lang.org
+[erlang]: https://www.erlang.org
 [craft]: https://craftcms.com/
 [commerce]: https://craftcommerce.com/
 [build]: mailto:hello@silentpost.co
