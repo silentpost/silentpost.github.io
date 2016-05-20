@@ -43,4 +43,4 @@ product creation, development and maintenance.
 
 [craft]: https://craftcms.com/
 [commerce]: https://craftcommerce.com/
-[build]: http://silentpost.co/contact
+[build]: mailto:hello@silentpost.co

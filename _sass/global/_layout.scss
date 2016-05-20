@@ -3,6 +3,11 @@
 // global layout classes - height, width, padding, margin, etc.
 
 .home {
-    padding: 6rem;
-    width: 60%;
+    padding: 1rem;
+    width: 100%;
+
+    @media screen and (min-width: 890px) {
+        padding: 6rem;
+        width: 60%;
+    }
 }
