@@ -2,18 +2,85 @@
 // - - typography
 // global typography styles
 
-h2#ux-and-ui-design {
-    color: $goldenrod;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: bold;
+    line-height: 1.25;
 }
 
-h2#content-management {
-    color: $teal;
-}
-
-h2#web-development {
+h1 {
     color: $red;
+    font-size: 2rem;
+    margin-top: 3.5rem;
 }
 
-h2#ecommerce {
-    color: $dodger-blue;
+h2 {
+    color: $text;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+    
+}
+
+h6 {
+
+}
+
+a {
+    border-bottom: 2px solid rgba($text, 0.8);
+    color: $text;
+    text-decoration: none;
+    transition: border 300ms ease-in-out;
+    
+    &:hover {
+        border-bottom: 2px solid rgba(darken($text, 20%), 0.8);
+    }
+}
+
+ul, ol, dl {
+    color: $text;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        font-size: 0.875rem;
+        margin-bottom: 0.375rem;
+        padding-left: 1.125rem;
+        position: relative;
+
+        &:before {
+            background-color: $red;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 6px;
+            left: 0;
+            margin-top: -2px;
+            position: absolute;
+            top: 0.75em;
+            width: 6px;
+        }
+    }
+
+}
+
+p {
+    color: $text;
+}
+
+strong, em {
+    color: $text;
 }

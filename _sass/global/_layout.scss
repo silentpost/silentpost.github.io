@@ -2,11 +2,35 @@
 // - - layout
 // global layout classes - height, width, padding, margin, etc.
 
-.home {
+aside {
+  padding: 1rem;
+  width: 100%;
+
+  @media screen and (min-width: 750px) and (max-width: 1199px) {
+      float: left;
+      padding: 6rem;
+      width: 25%;
+  }
+
+  @media screen and (min-width: 1200px) {
+      float: left;
+      padding: 6rem;
+      width: 40%;
+  }
+}
+
+main.home {
     padding: 1rem;
     width: 100%;
 
-    @media screen and (min-width: 890px) {
+    @media screen and (min-width: 750px) and (max-width: 1199px) {
+        float: right;
+        padding: 6rem;
+        width: 75%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        float: right;
         padding: 6rem;
         width: 60%;
     }

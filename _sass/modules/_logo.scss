@@ -1,0 +1,32 @@
+$circles: (
+  (  4px,   2px,  11s ),
+  ( -5px,   7px,  12s ),
+  (  4px,   4px,  13s ),
+  ( -3px,   1px,  14s ),
+  ( -1px,  -2px,  17s ),
+  ( -13px, -14px, 18s )
+);
+
+@for $i from 1 through length($circles) {
+  $valX: nth(nth($circles, $i), 1);
+  $valY: nth(nth($circles, $i), 2);
+  $length: nth(nth($circles, $i), 3);
+
+  @keyframes circle-#{$i} {
+    0% {
+      transform: translate(0px, 0px);
+    }
+
+    50% {
+      transform: translate($valX, $valY);
+    }
+
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
+  #circle-#{$i} {
+    animation: circle-#{$i} $length ease-in-out infinite;
+  }
+}
