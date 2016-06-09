@@ -10,8 +10,10 @@ We're a consulting company of designers and developers who will partner with
 you to create memorable products for web and mobile.
 
 Since being established in 2012, silentpost has been serving the web development
-needs of local startups and established businesses. We can help your business
-with the following:
+needs of local startups and established businesses. We're versed in both
+greenfield projects and battle-hardened applications.
+
+We can help your business with the following:
 
 {: .experience-list}
 - ## UX and UI design
