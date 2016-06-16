@@ -1,10 +1,10 @@
 $circles: (
-  (  4px,   2px,  11s ),
-  ( -5px,   7px,  12s ),
-  (  4px,   4px,  13s ),
-  ( -3px,   1px,  14s ),
-  ( -1px,  -2px,  17s ),
-  ( -13px, -14px, 18s )
+  (  4px,   2px,  5s ),
+  ( -5px,   7px,  6s ),
+  (  4px,   4px,  7s ),
+  ( -3px,   1px,  8s ),
+  ( -1px,  -2px,  10s ),
+  ( -13px, -14px, 11s )
 );
 
 @for $i from 1 through length($circles) {
