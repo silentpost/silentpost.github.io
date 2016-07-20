@@ -49,4 +49,4 @@ product creation, development and maintenance.
 [erlang]: https://www.erlang.org
 [craft]: https://craftcms.com/
 [commerce]: https://craftcommerce.com/
-[build]: mailto:hello@silentpost.co
+[build]: mailto:hello@silentpost.digital
